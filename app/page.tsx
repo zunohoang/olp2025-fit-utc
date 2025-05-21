@@ -193,6 +193,66 @@ export default function Home() {
         </div>
       </section>
 
+      
+      {/* Competition Rules Section */}
+      <section className="container mx-auto px-4 md:px-6 py-12 relative">
+        {/* Decorative elements */}
+        <div className="absolute -right-20 top-1/3 hidden md:block">
+          <div className="relative w-16 h-16">
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-indigo-500 rounded-full opacity-20 animate-float"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-indigo-400 to-purple-500 rounded-full opacity-30 animate-float-delayed"></div>
+          </div>
+        </div>
+        <div className="absolute -left-20 bottom-1/3 hidden md:block">
+          <div className="relative w-20 h-20">
+            <div className="absolute inset-0 bg-gradient-to-br from-pink-400 to-rose-500 rounded-full opacity-20 animate-float-reverse"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-rose-400 to-pink-500 rounded-full opacity-30 animate-float-reverse-delayed"></div>
+          </div>
+        </div>
+
+        <div className="bg-purple-800/50 backdrop-blur-sm border border-purple-700 rounded-xl p-6 md:p-10 max-w-4xl mx-auto">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl md:text-4xl font-bold">
+              📋 QUY ĐỊNH & HÌNH THỨC THI
+            </h2>
+          </div>
+
+          <div className="space-y-6">
+            <div className="space-y-4">
+              <h3 className="text-xl font-bold text-yellow-300">Hình thức thi:</h3>
+              <ul className="space-y-2 pl-4">
+                <li>Cuộc thi diễn ra theo hình thức thi cá nhân, mỗi thí sinh làm bài trên 1 máy tính được bố trí sẵn tại phòng thi (không sử dụng laptop cá nhân) và giải quyết 10 bài toán lập trình trong thời gian quy định.</li>
+                <li>Các ngôn ngữ lập trình cho phép sử dụng trong cuộc thi là những ngôn ngữ thông dụng như: C/C++, Java, Python, Pascal, …</li>
+                <li>Bài làm sẽ được nộp trên trang laptrinhonline.club. Tuyệt đối không được truy cập vào bất kỳ trang web nào khác.</li>
+                <li>Vị trí ngồi của thí sinh sẽ được công bố trước hôm thi một ngày, và danh sách sẽ được dán tại phòng thi.</li>
+                <li>Cuộc thi chỉ dành cho những Sinh viên chưa từng đạt giải Olympic Tin học sinh viên Việt Nam khối chuyên Tin.</li>
+              </ul>
+            </div>
+
+            <div className="space-y-4">
+              <h3 className="text-xl font-bold text-yellow-300">Quy định đặt tên:</h3>
+              <p>Cách thức đặt tên trên trang web lập trình online.club khi tham gia thi:</p>
+              <ul className="space-y-2 pl-4">
+                <li>Đối với các bạn sinh viên trường ĐHGTVT: Họ và tên - Lớp - Khóa (VD: NGUYỄN VĂN A - CNTT1 - K63)</li>
+              </ul>
+              <p className="text-red-300 font-bold">Lưu ý: Ban tổ chức sẽ không xét giải nếu không tìm thấy tên trong danh sách thí sinh theo quy định.</p>
+            </div>
+
+            <div className="space-y-4">
+              <h3 className="text-xl font-bold text-yellow-300">Cách thức tính điểm:</h3>
+              <ul className="space-y-2 pl-4">
+                <li>Sau khi hoàn thành mỗi vấn đề, thí sinh nộp bài qua hệ thống laptrinhonline.club để chấm điểm và theo dõi kết quả trên bảng xếp hạng trực tuyến.</li>
+                <li>Các vấn đề đều sử dụng điểm thành phần (tính điểm cho từng bộ test), một số vấn đề có subtask.</li>
+                <li>Lần nộp bài có điểm cao nhất sẽ được tính vào tổng điểm.</li>
+                <li>Mỗi lần nộp sai sẽ bị phạt thời gian, nếu điểm bằng nhau, thời gian làm bài sẽ quyết định thứ hạng.</li>
+                <li>Không có giới hạn số lần nộp cho một vấn đề.</li>
+                <li>Bảng điểm sẽ bị ẩn trong 1 tiếng cuối cùng của cuộc thi.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Prizes Section */}
       <section className="container mx-auto px-4 md:px-6 py-12 relative">
         {/* Decorative elements */}
@@ -377,9 +437,16 @@ export default function Home() {
           </div>
 
           <div className="mt-8 text-center">
-            <button className="bg-gradient-to-r from-amber-400 to-yellow-500 text-purple-950 text-xl font-bold px-8 py-3 rounded-lg hover:from-amber-500 hover:to-yellow-600 transition-all">
-              📥 ĐĂNG KÝ NGAY
-            </button>
+            <a 
+              href="https://forms.gle/59mAPpm2fbQEseis7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button 
+                className="bg-gradient-to-r from-amber-400 to-yellow-500 text-purple-950 text-xl font-bold px-8 py-3 rounded-lg hover:from-amber-500 hover:to-yellow-600 transition-all">
+                📥 ĐĂNG KÝ NGAY
+              </button>
+            </a>
           </div>
         </div>
       </section>
