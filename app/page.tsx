@@ -221,7 +221,7 @@ export default function Home() {
             <div className="space-y-4">
               <h3 className="text-xl font-bold text-yellow-300">Hình thức thi:</h3>
               <ul className="space-y-2 pl-4">
-                <li>Cuộc thi diễn ra theo hình thức thi cá nhân, mỗi thí sinh làm bài trên 1 máy tính được bố trí sẵn tại phòng thi (không sử dụng laptop cá nhân) và giải quyết 10 bài toán lập trình trong thời gian quy định.</li>
+                <li> Cuộc thi diễn ra theo hình thức thi cá nhân, mỗi thí sinh làm bài trên 1 máy tính được bố trí sẵn tại phòng thi (không sử dụng laptop cá nhân) và giải quyết 10 bài toán lập trình trong thời gian quy định.</li>
                 <li>Các ngôn ngữ lập trình cho phép sử dụng trong cuộc thi là những ngôn ngữ thông dụng như: C/C++, Java, Python, Pascal, …</li>
                 <li>Bài làm sẽ được nộp trên trang laptrinhonline.club. Tuyệt đối không được truy cập vào bất kỳ trang web nào khác.</li>
                 <li>Vị trí ngồi của thí sinh sẽ được công bố trước hôm thi một ngày, và danh sách sẽ được dán tại phòng thi.</li>
@@ -296,15 +296,15 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-yellow-400 font-bold">🥈</span>
-                  <span>XX Giải Nhì – ghi nhận sự kiên định và tư duy sắc bén</span>
+                  <span>02 Giải Nhì – ghi nhận sự kiên định và tư duy sắc bén</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-yellow-400 font-bold">🥉</span>
-                  <span>XX Giải Ba – dành cho những chiến binh bền bỉ không bỏ cuộc</span>
+                  <span>03 Giải Ba – dành cho những chiến binh bền bỉ không bỏ cuộc</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-yellow-400 font-bold">🎗</span>
-                  <span>XX Khuyến Khích – tôn vinh tinh thần học hỏi và vượt giới hạn</span>
+                  <span>04 Khuyến Khích – tôn vinh tinh thần học hỏi và vượt giới hạn</span>
                 </li>
               </ul>
             </div>
