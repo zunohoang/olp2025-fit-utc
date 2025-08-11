@@ -45,7 +45,7 @@ export default function Home() {
 
             <div className="space-y-6 mt-12">
               <h3 className="text-2xl md:text-3xl font-bold text-center text-yellow-300">
-                🎉 CUỘC THI OLYMPIC TIN HỌC SINH VIÊN UTC NĂM 2025 - VÒNG THỨ NHẤT
+                🎉 CUỘC THI OLYMPIC TIN HỌC SINH VIÊN UTC NĂM 2025 - VÒNG THỨ HAI
               </h3>
 
               <p className="text-lg md:text-xl text-center">
@@ -148,7 +148,7 @@ export default function Home() {
             </p>
 
             <p>
-              🔥 Tiếp nối thành công vang dội của Cuộc thi Olympic Tin học năm 2024, năm nay cuộc thi trở lại mạnh mẽ
+              🔥 Tiếp nối thành công vang dội của Cuộc thi Olympic Tin học vòng 1 - 2025, vòng 2 này cuộc thi trở lại mạnh mẽ
               hơn – quy mô hơn – thử thách hơn, hứa hẹn sẽ là một đấu trường bùng nổ trí tuệ cho cộng đồng sinh viên
               công nghệ UTC.
             </p>
@@ -430,7 +430,7 @@ export default function Home() {
               <div className="flex items-start gap-3">
                 <Calendar className="h-6 w-6 text-yellow-300 mt-1 flex-shrink-0" />
                 <p>
-                  <span className="font-bold">Thời gian đăng ký:</span> Tháng 5/2025
+                  <span className="font-bold">Thời gian đăng ký:</span> Từ ngày 11/08/2025 đến 23h59 ngày 21/08/2025
                 </p>
               </div>
             </div>
@@ -438,7 +438,7 @@ export default function Home() {
 
           <div className="mt-8 text-center">
             <a 
-              href="https://forms.gle/59mAPpm2fbQEseis7"
+              href="https://forms.gle/en3yGceLjDm3iaoNA"
               target="_blank"
               rel="noopener noreferrer"
             >
