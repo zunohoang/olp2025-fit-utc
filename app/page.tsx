@@ -142,7 +142,7 @@ export default function Home() {
 
           <div className="space-y-4 text-lg">
             <p>
-              ✨ Cuộc thi Olympic Tin học Sinh viên – lần thứ nhất, do Khoa Công nghệ Thông tin phối hợp cùng CLB Tin
+              ✨ Cuộc thi Olympic Tin học Sinh viên – lần thứ hai, do Khoa Công nghệ Thông tin phối hợp cùng CLB Tin
               học SFIT- Trường Đại học Giao thông Vận tải tổ chức, là sân chơi học thuật chuyên sâu dành cho sinh viên
               yêu thích công nghệ, lập trình và thuật toán.
             </p>
